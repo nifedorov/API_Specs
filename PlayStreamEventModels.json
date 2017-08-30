@@ -1432,6 +1432,28 @@
           ]
         },
         {
+          "name": "player_device_info",
+          "className": "PlayerDeviceInfoEventData",
+          "classNameSpace": "PlayFab.PlayStreamEvent.Models",
+          "assembly": "PlayFab.PlayStreamEvent.Models",
+          "properties": [
+            {
+              "name": "DeviceInfo",
+              "collection": "map",
+              "jsontype": "Object",
+              "actualtype": "object",
+              "optional": true
+            },
+            {
+              "name": "TitleId",
+              "description": "The ID of the title to which this player event applies.",
+              "jsontype": "String",
+              "actualtype": "String",
+              "optional": true
+            }
+          ]
+        },
+        {
           "name": "player_displayname_changed",
           "className": "PlayerDisplayNameChangedEventData",
           "classNameSpace": "PlayFab.PlayStreamEvent.Models",

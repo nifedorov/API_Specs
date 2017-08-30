@@ -10065,7 +10065,7 @@
         },
         {
           "name": "PlacementId",
-          "description": "Id of the eplacement the reward was for",
+          "description": "Id of the placement the reward was for",
           "jsontype": "String",
           "actualtype": "String",
           "optional": true
@@ -12258,6 +12258,13 @@
         {
           "name": "NeedsAttribution",
           "description": "Boolean for whether this player is eligible for ad tracking.",
+          "jsontype": "Boolean",
+          "actualtype": "Boolean",
+          "optional": false
+        },
+        {
+          "name": "GatherDeviceInfo",
+          "description": "Boolean for whether this player is eligible for gathering device info.",
           "jsontype": "Boolean",
           "actualtype": "Boolean",
           "optional": false
